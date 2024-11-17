@@ -17,5 +17,4 @@ object OptionHelp extends App {
   //println(s"o1.fold(1)(_ + 1): ${o1.fold(1)(_ + 1)} Складывает элементы списка, начиная с 1")
   println(s"o1.foldLeft(\"1\")((x,y) => s\"x y \"): ${o1.foldLeft("1")((x, y) => s"$x $y")} Применяет левое свертка к элементам, начиная с \"1\"")
   println(s"o1.foldRight(\"1\")((x,y) => s\"x y \"): ${o1.foldRight("1")((x, y) => s"$x $y")} Применяет правое свертка к элементам, начиная с \"1\"")
-
 }
