@@ -1,7 +1,6 @@
 .gradle
 .idea
 build/
-.gitignore
 build.gradle
 gradlew
 gradlew.bat
@@ -10,8 +9,7 @@ src/java
 src/resources
 src/groovy
 src/test
-!**/src/main/**/build/
-!**/src/test/**/build/
+.gitignore
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
